@@ -7,7 +7,7 @@ st.title("Diabetes classification - SVM")
 img = plt.imread("causes-of-diabetes.webp")
 st.image(img, caption="Diabetes")
 
-x0 = st.sidebar.number_input("Pregnancies (months)", min_value=0)
+x0 = st.sidebar.number_input("Pregnancies", min_value=0)
 x1 = st.sidebar.number_input("Glucose (mg/dL)", min_value=0)
 x2 = st.sidebar.number_input("Blood Pressure", min_value=0)
 x3 = st.sidebar.number_input("Skin Thickness", min_value=0)
